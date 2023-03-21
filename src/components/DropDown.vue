@@ -159,7 +159,7 @@ export default {
             <div class="flex mb-4 justify-between items-center">
               <div>
                 <h5 class="mb-0 font-medium text-xl">{{ name }}</h5>
-                <h6 class="mb-0">April 04 2021</h6>
+                <h6 class="mb-0">{{ day + "/" + month + "/" + year }}</h6>
                 <small>Cloudy</small>
               </div>
               <div class="text-right">
